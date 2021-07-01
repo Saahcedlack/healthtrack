@@ -1,1 +1,1 @@
-# trainining-repository
+#Projeto focado em desenvolver um site e app para unir profissionais e idosos, para proporcionar aulas individuais e em grupos, totalmente desenvolvidas e direcionadas as necessidades dessas pessoas e respeitando as limitações de cada uma. Aplicativo e site intuitivo, com atendimento fácil e rápido através dos canais de atendimento.
