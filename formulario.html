@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--Definir idioma-->
+<html lang="pt-br">
+<html>
+<head>
+    <!-- informação do documento html-->
+    <title>Formulario Senior Fit Plus</title>
+    <!--Definir a codificação de caracteres-->
+    <meta charset="utf-8">
+    <!--Generica para realizar vinculos-->
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <meta name="viewport"  content="width=device-width, initial-scale=1">
+    <script src="jquery-2.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    
+</head>
+    <body>
+        <a href="index.html">
+        <img src="cabecalho.png" alt="capa do site" width=1270 height=200>
+        </a>
+        <!-- aqui começa a parte visivel do documento html (renderizada)-->
+        <header>         
+            <h1>Preencha seus dados</h1>
+        </header>
+
+        <div class="container">
+          <form id="formulariodeentrada" method="POST">
+            <label for="name">Nome Completo</label>
+            <input type="name" class="form-control"
+            id="name" placeholder="Sara Silva"> 
+            <p></p>
+            <label for="nascimento">Data de nascimento</label>
+            <input type="nascimento" class="form-control"
+            id="nascimento" placeholder="16/11/1997">
+            <p></p>
+
+            <label for="email">Email</label>
+            <input type="email" class="form-control"
+            id="email" placeholder="rm89016@fiap.com.br">
+            <p></p>
+            <label for="confirmar e-mail">Confirme o e-mail</label>
+            <input type="confirmar email" class="form-control"
+            id="confirmar e-mail" placeholder="rm89016@fiap.com.br">
+            <p></p>
+            <label for="senha">Senha</label>
+            <input type="senha" class="form-control"
+            id="senha" placeholder="Senha@teste">
+            <p></p>
+            <label for="confirmarsenha">Confirmar Senha</label>
+            <input type="confirmarsenha" class="form-control"
+            id="confirmarsenha" placeholder="Senha@teste">
+            <p></p>                
+          </form>
+          <form method="get" action="conta.html"><button type="submit">Criar</button></form>
+          <p></p>
+          <form method="get" action="index.html"><button type="submit">Voltar</button></form>
+        </div>
+    </body>
+</html>   
